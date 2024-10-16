@@ -8,3 +8,5 @@ require_once BASE_PATH . '/controllers/UserController.php';
 // Llamar al método que muestra el formulario
 $controller = new UserController();
 $controller->showForm();
+
+$var_prueba = 0;
